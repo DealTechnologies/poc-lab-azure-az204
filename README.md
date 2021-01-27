@@ -32,8 +32,9 @@ A simple exemple using delivery order with azure events
 - "OCPAPIMKEY": **"XXX-XXXX-XXXX"**
 - "MongoDBAtlasConnectionString": **"Set your mongodb string connection"**
 
-# Build 
-run command: **func start host**
+# Build & Run
+build: **dotnet build**
+run: **func start host**
 
 If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
 - [ASP.NET Core](https://github.com/aspnet/Home)
@@ -41,7 +42,7 @@ If you want to learn more about creating good readme files then refer the follow
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
 
 ## Project Diagram, Structure and Comments
-[![BWO](blob:https://whimsical.com/9351fd75-05f5-4e5d-8f1c-0eb7525ed8e1)](https://whimsical.com/azure-lab-204x-9ePDg7aYs7cGxKfrBx1pba)
+[![BWO](https://dragatosdev.blob.core.windows.net/temporario/Azure Lab 204x@1.25x.png)](https://whimsical.com/azure-lab-204x-9ePDg7aYs7cGxKfrBx1pba)
 For more detail access [Whimsical Diagram Page](https://whimsical.com/azure-lab-204x-9ePDg7aYs7cGxKfrBx1pba) to see the comments in each node.
 
 # More
