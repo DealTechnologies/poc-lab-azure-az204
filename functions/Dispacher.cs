@@ -13,7 +13,7 @@ namespace function.company
 {
     public static class Dispacher
     {
-        [FunctionName("dispacher")]
+        [FunctionName("order-dispacher")]
         public static async Task RunAsync([TimerTrigger("0 */5 * * * *")] TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
@@ -34,7 +34,7 @@ namespace function.company
                 {
                     var events = new List<EventGridEvent>();
 
-                    var credentials = new TopicCredentials(Environment.GetEnvironmentVariable("ORDERTOPICKEY"));
+                    var credentials = new TopicCredentials(Environment.GetEnvironmentVariable("TRANSACTIONTOPICKEY"));
 
                     var client = new EventGridClient(credentials);
 

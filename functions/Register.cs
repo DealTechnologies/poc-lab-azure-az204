@@ -14,7 +14,7 @@ namespace function.company
 {
     public static class Register
     {
-        [FunctionName("register")]
+        [FunctionName("order-register")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req,
             ILogger log)

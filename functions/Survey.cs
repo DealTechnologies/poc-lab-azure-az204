@@ -15,7 +15,7 @@ namespace function.company
 {
     public static class Survey
     {
-        [FunctionName("survey")]
+        [FunctionName("order-survey")]
         public static async Task Run([EventGridTrigger] EventGridEvent eventGridEvent, ILogger log)
         {
             log.LogInformation(eventGridEvent.Data.ToString());

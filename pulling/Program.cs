@@ -12,7 +12,7 @@ namespace pulling
     public class Program
     {
         private const string storageConnectionString = "";
-        private const string queueName = "";
+        private const string queueName = "messagequeue";
 
         public static async Task Main(string[] args)
         {

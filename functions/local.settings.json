@@ -1,7 +1,14 @@
 {
     "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
-    }
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "USEAPIMANAGEMENT": "false",
+    "TRANSACTIONTOPICENDPOINT": "",
+    "TRANSACTIONTOPICKEY": "",
+    "STORAGECONNECTIONSTRING": "",
+    "STORAGEQUEUE": "",
+    "OCPAPIMKEY": "",
+    "MongoDBAtlasConnectionString": ""
+  }
 }
