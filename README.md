@@ -42,7 +42,7 @@ If you want to learn more about creating good readme files then refer the follow
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
 
 ## Project Diagram, Structure and Comments
-[![BWO](https://dragatosdev.blob.core.windows.net/temporario/Azure Lab 204x@1.25x.png)](https://whimsical.com/azure-lab-204x-9ePDg7aYs7cGxKfrBx1pba)
+[![BWO](https://dragatosdev.blob.core.windows.net/temporario/Azure%20Lab%20204x@1.25x.png)](https://whimsical.com/azure-lab-204x-9ePDg7aYs7cGxKfrBx1pba)
 For more detail access [Whimsical Diagram Page](https://whimsical.com/azure-lab-204x-9ePDg7aYs7cGxKfrBx1pba) to see the comments in each node.
 
 # More
